@@ -27,7 +27,7 @@ In many cases is may not be possible or we have not yet been able to create a sc
 
 ## Build Notes
 
-After patches are available for all issues planned for a given release per the project board, a CNA-Tech Repository admin will initiate a manual build and validation process. The admin will decide and document a plan to best implement the required updates to the vApp template, save the updated template, validate the saved template, and once validated initiate template transfers and finally VLP lab creation for hosted-eval and qd. 
+After patches are available for all issues planned for a given release per the project board, a PKS-Ninja Repository admin will initiate a manual build and validation process. The admin will decide and document a plan to best implement the required updates to the vApp template, save the updated template, validate the saved template, once validated initiate template transfers, and finally VLP lab setup for hosted-eval and qd. 
 
 In the ideal scenario, an admin may consolidate the various patches into a single script file, however this approach is not always possible. The more common scenario is that the admin will use some combination of documented manual steps and scripts, executed in a sequence documented by the administrator. 
 
@@ -35,7 +35,13 @@ Related assets and dependencies must be stored in the ./{version number}/{issue 
 
 ### Baseline-0.6 Build Sequence Reference
 
-#### Step 1: Fixes #503 "Multiple v12 templates need CPU allocation updated for L1 Hosts"
+#### Step 1: "Multiple v12 templates need CPU allocation updated for L1 Hosts" Fixes #503
+
+1.1 Complete the steps documented in the [readme for issue #503](./503/readme.md)code readme.md
+
+#### Step 2: "Multiple v12 templates have incorrect readme file details on control center desktop" Fixes #490
+
+2.1 Complete the steps documented in the [readme for issue #490](./490/readme.md)
 
 
 
