@@ -40,3 +40,11 @@ Topology Maps: https://pksninja-bucket.s3.us-east-2.amazonaws.com/PKS-Ninja+Hand
   - Username: pksadmin
   - Password: VMware1!
   - Login Command: pks login -a pks.corp.local -u pksadmin -p VMware1! -k
+
+- vpodrouter (router.corp.local) (root SSH)
+  - Username: root
+  - Password: VMware1!
+
+- vpodrouter (router.corp.local) (read only SSH)
+  - Username: holuser
+  - Password: VMware1!
