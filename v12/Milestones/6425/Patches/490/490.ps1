@@ -5,7 +5,7 @@
 ##################################################
 
 # Create a variable named "source" to hold the unauthenticated web location for the source file
-$source = "https://github.com/CNA-Tech/PKS-Ninja-vApp-Templates/blob/master/v12/Baseline/0.6/490/ccdesktop/readme.txt"
+$source = "https://raw.githubusercontent.com/CNA-Tech/PKS-Ninja-vApp-Templates/master/v12/Milestones/6425/Patches/490/Assets/README.txt"
 
 # Create a variable named "destination" to hold the target location in the local filesystem including the target filename
 $destination = "C:\Users\Administrator\Desktop\README.txt"
