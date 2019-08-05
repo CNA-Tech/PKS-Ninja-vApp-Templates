@@ -11,7 +11,7 @@ $source = "https://raw.githubusercontent.com/CNA-Tech/PKS-Ninja-vApp-Templates/m
 $destination = "C:\Users\Administrator\Desktop\README.txt"
 
 # Remove existing destination file if present
-Remove-Item -path $destination
+Remove-Item $destination
 
 # Copy file from the source location to the destination location
 wget $source -outfile $destination
