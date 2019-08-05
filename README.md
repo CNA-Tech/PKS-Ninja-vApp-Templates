@@ -1,2 +1,2 @@
 # PKS-Ninja-vApp-Templates
-document bug patches and feature implementations for vApp Template versions
+Release Notes, Instructions & Scripts for bug patches and feature implementations for vApp Template versions
