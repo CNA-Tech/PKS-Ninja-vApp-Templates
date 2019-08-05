@@ -55,7 +55,7 @@ In many cases is may not be possible or we have not yet been able to create a sc
 
 2.1 Complete the steps documented in the [readme for issue #507](../../../../Patches/507/readme.md)code readme.md
 
-### Step 3: "Multiple v12 templates have incorrect readme file details on control center desktop" Fixes #512
+### Step 3: "multiple v12 templates need a saved putty session for holuser@router and root@router for connecting to the vpodrouter #512 " Fixes #512
 
 3.1 Complete the steps documented in the [readme for issue #512](../../../../Patches/512/readme.md)
 
