@@ -7,22 +7,22 @@ This update requires updating the vApp template properties through the vCloud Di
 1.2 In the vCD/OneCloud web interface, select your provisioned instance of CNABU-PKS-Ninja-v12-Baseline-0.5 template, Navigate to the virtual machines tab, and then navigate to the `Properties > Hardware` tab to adjust hardware settings per the details below
 
 - esx-01a
-  - Number of CPU's: `4`
+  - Number of Virtual CPU's: `4`
   - Cores Per Socket: `1`
 - esx-02a
-  - Number of CPU's: `4`
+  - Number of Virtual CPU's: `4`
   - Cores Per Socket: `1`
 - esx-03a
-  - Number of CPU's: `4`
+  - Number of Virtual CPU's: `4`
   - Cores Per Socket: `1`
 - esx-04a
-  - Number of CPU's: `4`
+  - Number of Virtual CPU's: `8`
   - Cores Per Socket: `2`
 - esx-05a
-  - Number of CPU's: `4`
+  - Number of Virtual CPU's: `8`
   - Cores Per Socket: `2`
 - esx-06a
-  - Number of CPU's: `4`
+  - Number of Virtual CPU's: `8`
   - Cores Per Socket: `2`
 
 This completes the Patch for Issue #503
