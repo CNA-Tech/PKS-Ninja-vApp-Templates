@@ -6,6 +6,10 @@
 
 **New Features:** [Click Here](https://github.com/CNA-Tech/PKS-Ninja/issues?utf8=%E2%9C%93&q=label:enhancement/newFeature+label:AppliesTo/vAppTemplate/v12-Baseline++milestone:Milestone6425)
 
+## How do I get access to a lab environment where I can run this template
+
+Please see [Getting Access to a PKS Ninja Lab Environment](https://github.com/CNA-Tech/PKS-Ninja/tree/Pks1.4/Courses/GetLabAccess-LA8528)
+
 ## Baseline-0.6 Build Sequence Reference
 
 ### Step 1: "Multiple v12 templates need CPU allocation updated for L1 Hosts" Fixes #503

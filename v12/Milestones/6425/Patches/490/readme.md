@@ -11,7 +11,6 @@ While this can be done manually, the file [490.ps1](./490.ps1) provides a simple
 1.2 Open a powershell prompt and enter the following commands:
 
 ```bash
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 wget "https://raw.githubusercontent.com/CNA-Tech/PKS-Ninja-vApp-Templates/master/v12/Milestones/6425/Patches/490/490.ps1" -outfile "C:\Temp\490.ps1"
 . C:\Temp\490.ps1
 del C:\Temp\490.ps1

@@ -11,7 +11,7 @@ mkdir /home/ubuntu/helm
 cd /home/ubuntu/helm
 curl -o helm.tgz https://get.helm.sh/helm-v2.14.3-linux-amd64.tar.gz
 tar -zxvf helm.tgz
-mv /linux-amd64/helm /usr/local/bin/helm
+sudo mv /linux-amd64/helm /usr/local/bin/helm
 rm helm.tgz
 ```
 

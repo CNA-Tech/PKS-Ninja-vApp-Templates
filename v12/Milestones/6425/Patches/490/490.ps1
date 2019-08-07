@@ -4,6 +4,9 @@
 #
 ##################################################
 
+#Set Powershell to use TLS 1.2 as required to access github
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
 # Create a variable named "source" to hold the unauthenticated web location for the source file
 $source = "https://raw.githubusercontent.com/CNA-Tech/PKS-Ninja-vApp-Templates/master/v12/Milestones/6425/Patches/490/Assets/README.txt"
 
