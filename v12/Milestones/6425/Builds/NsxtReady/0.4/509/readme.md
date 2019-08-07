@@ -25,6 +25,10 @@
 
 4.1 Complete the steps documented in the [readme for issue #490](../../../../Patches/505/readme.md)
 
+### Step 5: "vApp Template v12-NsxtReady needs 2nd NIC on CLI-VM to be configured" Fixes #501
+
+5.1 Complete the steps documented in the [readme for issue #499](../../../../Patches/499/readme.md)
+
 ### Step 5: "Multiple v12 Templates do not have Helm Installed on cli-vm" Fixes #499
 
 5.1 Complete the steps documented in the [readme for issue #499](../../../../Patches/499/readme.md)

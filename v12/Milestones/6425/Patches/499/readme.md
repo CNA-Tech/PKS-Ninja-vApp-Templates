@@ -12,7 +12,7 @@ cd /home/ubuntu/helm
 curl -o helm.tgz https://get.helm.sh/helm-v2.14.3-linux-amd64.tar.gz
 tar -zxvf helm.tgz
 mv /linux-amd64/helm /usr/local/bin/helm
-rm ../helm.tgz
+rm helm.tgz
 ```
 
 This completes the resolution steps for issue #499. Please be sure to reference the build instructions for the template you are updating for additional steps to complete the build process.
