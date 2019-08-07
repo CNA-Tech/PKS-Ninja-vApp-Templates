@@ -21,18 +21,17 @@
 
 3.1 Complete the steps documented in the [readme for issue #512](../../../../Patches/512/readme.md)
 
-### Step 4: "Multiple v12 templates have incorrect readme file details on control center desktop" Fixes #490
+### Step 4: "multiple v12 templates need large edge vm to enable multiple cluster creation" Fixes #505
 
-4.1 Complete the steps documented in the [readme for issue #490](../../../../Patches/490/readme.md)
-
-
-### Step 4: "Multiple v12 templates have incorrect readme file details on control center desktop" Fixes #490
-
-4.1 Complete the steps documented in the [readme for issue #490](../../../../Patches/490/readme.md)
+4.1 Complete the steps documented in the [readme for issue #490](../../../../Patches/505/readme.md)
 
 ### Step 5: "Multiple v12 Templates do not have Helm Installed on cli-vm" Fixes #499
 
 5.1 Complete the steps documented in the [readme for issue #499](../../../../Patches/499/readme.md)
+
+### Step 4: "Multiple v12 templates have incorrect readme file details on control center desktop" Fixes #490
+
+4.1 Complete the steps documented in the [readme for issue #490](../../../../Patches/490/readme.md)
 
 ### Step 6: Complete repetetive build processes
 

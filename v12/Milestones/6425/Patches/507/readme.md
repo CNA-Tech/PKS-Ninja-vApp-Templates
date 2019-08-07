@@ -4,6 +4,14 @@ This update requires updating the vApp template properties through the vCloud Di
 
 This update must be completed from a OneCloud org that has access to all the required resources and assets to complete the steps below. In most cases, template updates are developed in the `wcd-vcd01-cnabu-t` org and then transferred to other onecloud orgs for end user access.
 
+## Important Pre-Requisite
+
+On any template with PKS Pre-installed including PksInstalled and ClusterReady templates, this patch should be applied from a freshly loaded template with only the control center and vpodrouter hosts booted up until the patch is applied. 
+
+After the patch has been applied, the control center VM should be shut down, and then can be booted up with the rest of the template to ensure the lab startup script has no issues. 
+
+The reason for this sequence is because the new vpodrouter that is added in Step1 does not have a route for the PKS control plane network until after you complete Step2 below. The missing route causes problems during the startup of the PKS environment. 
+
 ## Step 1: Replace vPodRouter VM
 
 The impacted templates use a vPodRouter intended for HOL templates, which implement URL filtering policies. While the URL filtering could be disabled, a better practice will be to replace the vPodRouterHOL with the `vPodRouter v6.1` VM which is intended for non HOL use. The `vPodRouter v6.1` VM does not by default have URL filtering turned on, so it will inherently resolve the issue of users not being able to access the internet
