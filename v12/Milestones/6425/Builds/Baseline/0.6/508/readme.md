@@ -6,19 +6,15 @@
 
 **New Features:** [Click Here](https://github.com/CNA-Tech/PKS-Ninja/issues?utf8=%E2%9C%93&q=label:enhancement/newFeature+label:AppliesTo/vAppTemplate/v12-Baseline++milestone:Milestone6425)
 
-milestone:"vApp Templates Baseline-0.6, NsxtReady-0.4, PksInstalled-0.2 and ClusterReady-0.5" 
-
-Milestone6425_Baseline-0.6_NsxtReady-0.4_PksInstalled-0.2_ClusterReady-0.5
-
 ## Baseline-0.6 Build Sequence Reference
 
 ### Step 1: "Multiple v12 templates need CPU allocation updated for L1 Hosts" Fixes #503
 
-1.1 Complete the steps documented in the [readme for issue #503](../../../../Patches/503/readme.md)code readme.md
+1.1 Complete the steps documented in the [readme for issue #503](../../../../Patches/503/readme.md)
 
 ### Step 2: "Multiple v12 templates have internet access problems" Fixes #507
 
-2.1 Complete the steps documented in the [readme for issue #507](../../../../Patches/507/readme.md)code readme.md
+2.1 Complete the steps documented in the [readme for issue #507](../../../../Patches/507/readme.md)
 
 ### Step 3: "multiple v12 templates need a saved putty session for holuser@router and root@router for connecting to the vpodrouter #512 " Fixes #512
 
