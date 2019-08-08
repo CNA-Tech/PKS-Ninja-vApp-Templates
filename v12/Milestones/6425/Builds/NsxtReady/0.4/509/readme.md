@@ -56,4 +56,4 @@ Please see [Getting Access to a PKS Ninja Lab Environment](https://github.com/CN
 
 8.5 On line 25 you should see the entry `COMMENT=active:1,interval:60,color:FFFFFF,style:b,text:PKS-Ninja-v12-NsxtReady-0.3`, update this entry to reflect the new version number: `COMMENT=active:1,interval:60,color:FFFFFF,style:b,text:PKS-Ninja-v12-NsxtReady-0.4`
 
-### Step 9: Shutdown and Save updated template
+### Step 9: Shutdown and Save updated template per the [PKS Lab Shutdown Order](https://confluence.eng.vmware.com/display/CNA/OneCloud+PKS+Lab+Startup+Optmization#OneCloudPKSLabStartupOptmization-PksLabShutdownOrder)
