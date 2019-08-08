@@ -74,11 +74,11 @@ Accordingly we recommend shutting down any VM's that depend on NSX-T Networks pr
 
 ## Step 2: Add edge-tn-1 and replace nsxedge-2
 
-2.1 Connect to a clean & properly running instance of the template you want to patch
+2.1 From the control center desktop, use a web browser to connect to NSX-T Manager UI and login
 
-2.2 From the control center desktop, use a web browser to connect to NSX-T Manager UI and login
+2.2 In the NSX Manager UI, Navigate to the `System > Fabric > Nodes > Edge Transport Nodes` page
 
-2.3 In the NSX Manager UI, Navigate to the `System > Fabric > Nodes > Edge Transport Nodes` page and click `ADD EDGE VM`
+2.3 Click `ADD EDGE VM`
 
 2.4 Complete the `Add Edge VM` workflow with the following values:
 
