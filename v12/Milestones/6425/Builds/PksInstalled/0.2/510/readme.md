@@ -42,11 +42,11 @@ Please see [Getting Access to a PKS Ninja Lab Environment](https://github.com/CN
 
 8.2 Using vscode or your preferred text editor, from the control center desktop open the file `C:\hol\LabStartup.ps1`
 
-8.3 On line 125 you should see the following entry: `WritePodSkuToDesktopInfo 'PKS-Ninja-v12-NsxtReady-0.4'` Update this line to reflect the new version number for the updated build: `WritePodSkuToDesktopInfo 'PKS-Ninja-v12-Baseline-0.6'` then save and close the file. 
+8.3 On line 125 you should see the following entry: `WritePodSkuToDesktopInfo 'PKS-Ninja-v12-PksInstalled-0.1'` Update this line to reflect the new version number for the updated build: `WritePodSkuToDesktopInfo 'PksInstalled-0.2'` then save and close the file. 
 
 8.4 Using vscode or your preferred text editor, from the control center desktop open the file `C:\DesktopInfo\desktopinfo.ini`
 
-8.5 On line 25 you should see the entry `COMMENT=active:1,interval:60,color:FFFFFF,style:b,text:PKS-Ninja-v12-NsxtReady-0.3`, update this entry to reflect the new version number: `COMMENT=active:1,interval:60,color:FFFFFF,style:b,text:PKS-Ninja-v12-NsxtReady-0.4`
+8.5 On line 25 you should see the entry `COMMENT=active:1,interval:60,color:FFFFFF,style:b,text:PKS-Ninja-v12-PksInstalled-0.1`, update this entry to reflect the new version number: `COMMENT=active:1,interval:60,color:FFFFFF,style:b,text:PKS-Ninja-v12-PksInstalled-0.2`
 
 ### Step 9: "multiple v12 templates need large edge vm to enable multiple cluster creation" Fixes #505
 
