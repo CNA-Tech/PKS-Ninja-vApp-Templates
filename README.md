@@ -4,19 +4,19 @@ Release Notes, Instructions & Scripts for bug patches and feature implementation
 ## Current/Latest PKS-Ninja Template Build Versions
 
 **PKS 1.3 Templates:**
-CNABU-2019-01-PKS-Ninja-v11
-CNABU-PKS-Ninja-v11-NsxtInstalled
-CNABU-PKS-Ninja-v11-PksInstalled1.1
-CNABU-PKS-Ninja-v11-ClusterReady1.1
+CNABU-2019-01-PKS-Ninja-v11  
+CNABU-PKS-Ninja-v11-NsxtInstalled  
+CNABU-PKS-Ninja-v11-PksInstalled1.1  
+CNABU-PKS-Ninja-v11-ClusterReady1.1  
 
 **PKS 1.4 Templates:**
-PKS-Ninja-v12-Baseline-0.6
-PKS-Ninja-v12-NsxtReady-0.5
-PKS-Ninja-v12-PksInstalled-0.3
-PKS-Ninja-v12-ClusterReady-0.6
+PKS-Ninja-v12-Baseline-0.6  
+PKS-Ninja-v12-NsxtReady-0.5  
+PKS-Ninja-v12-PksInstalled-0.3  
+PKS-Ninja-v12-ClusterReady-0.6  
 
 **PKS 1.5 Templates:**
-PKS-Ninja-v12-Pks1.5Installed-epmc-1.0
+PKS-Ninja-v12-Pks1.5Installed-epmc-1.0  
 
 ## PKS vApp Template Build Process
 
