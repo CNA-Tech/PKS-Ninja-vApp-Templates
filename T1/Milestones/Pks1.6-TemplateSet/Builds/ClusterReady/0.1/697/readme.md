@@ -1,4 +1,4 @@
-# PKS-Ninja-v12-ClusterReady-0.5 Release Notes
+# PKS-Ninja-T1-ClusterReady-0.1 Release Notes
 
 **Milestone Page:** [Click Here](https://github.com/CNA-Tech/PKS-Ninja/milestone/1)
 
@@ -14,7 +14,7 @@ Please see [Getting Access to a PKS Ninja Lab Environment](https://github.com/CN
 
 In Milestone 6425, there were no bugs that applied to the ClusterReady template that did not also apply to the PksInstalled template. The only difference between the PksInstalled and ClusterReady template is that on the ClusterReady template has a Kubernetes cluster pre-deployed.
 
-It is both a cleaner and more effecient strategy to deploy a cluster on the PksInstalled-0.2 template to build ClusterReady-0.5 rather than applying patches directly to the older template. 
+It is both a cleaner and more effecient strategy to deploy a cluster on the PksInstalled-0.2 template to build T1-ClusterReady-0.1 rather than applying patches directly to the older template. 
 
 Accordingly, if you would like to see a details record of which the patches for issues resolved in this release were applied, please see the [Release Notes for PKS-v12-PksInstalled-0.2]()
 
@@ -43,10 +43,10 @@ kubectl get pods --all-namespaces
 
 2.2 Using vscode or your preferred text editor, from the control center desktop open the file `C:\hol\LabStartup.ps1`
 
-2.3 On line 125 you should see the following entry: `WritePodSkuToDesktopInfo 'PKS-Ninja-v12-ClusterReady-0.4'` Update this line to reflect the new version number for the updated build: `WritePodSkuToDesktopInfo 'PKS-Ninja-v12-ClusterReady-0.5'` then save and close the file. 
+2.3 On line 125 you should see the following entry: `WritePodSkuToDesktopInfo 'PKS-Ninja-v12-ClusterReady-0.4'` Update this line to reflect the new version number for the updated build: `WritePodSkuToDesktopInfo 'PKS-Ninja-T1-ClusterReady-0.1'` then save and close the file. 
 
 2.4 Using vscode or your preferred text editor, from the control center desktop open the file `C:\DesktopInfo\desktopinfo.ini`
 
-2.5 On line 25 you should see the entry `COMMENT=active:1,interval:60,color:FFFFFF,style:b,text:PKS-Ninja-v12-ClusterReady-0.4`, update this entry to reflect the new version number: `COMMENT=active:1,interval:60,color:FFFFFF,style:b,text:PKS-Ninja-v12-ClusterReady-0.5`
+2.5 On line 25 you should see the entry `COMMENT=active:1,interval:60,color:FFFFFF,style:b,text:PKS-Ninja-v12-ClusterReady-0.4`, update this entry to reflect the new version number: `COMMENT=active:1,interval:60,color:FFFFFF,style:b,text:PKS-Ninja-T1-ClusterReady-0.1`
 
 ### Step 3: Shutdown and Save updated template per the [PKS Lab Shutdown Order](https://confluence.eng.vmware.com/display/CNA/OneCloud+PKS+Lab+Startup+Optmization#OneCloudPKSLabStartupOptmization-PksLabShutdownOrder)
